@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from collections import deque
 
-# --- Configurações Ajustadas para Baja ---
-SERIAL_PORT = '/dev/cu.usbmodem1101' # Sua porta no Mac
+# --- Configurações do Arduino ---
+SERIAL_PORT = '#' # Porta do Arduino
 BAUD_RATE = 500000
 SAMPLE_RATE = 1000      # 1000 Hz (igual ao Arduino)
 BUFFER_SIZE = 1024      # 1024 amostras para boa resolução na FFT
